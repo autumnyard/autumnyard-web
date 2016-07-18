@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'Raleway'; /*a name to be used later*/
+    src: url('/font/raleway_thin-webfont.ttf')  format('truetype'); /*URL to font*/
+}
 /*------------------------------------*\
     $RESET
 \*------------------------------------*/
@@ -76,7 +80,8 @@ textarea {
 html {
     background-color: #fdfdfd;
     color:  #1c2123; /* #95a4a9 */
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font: 12px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Raleway'; 
 }
 body {
     margin: 4%;
@@ -99,7 +104,7 @@ body {
     width: 400px;
 }
     .title {
-        font-size: 32px; /* 48px; */
+        font-size: 48px; /* 48px; */
         font-weight: normal;
         line-height: 1;
         text-align: center;

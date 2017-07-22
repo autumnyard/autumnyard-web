@@ -1,0 +1,131 @@
+/*
+	Mnml Old Style
+		by: Pablo de la Ossa
+		on: 2014/02/22
+*/
+
+body
+{
+	width:800px;
+	font-family:  "Times New Roman", "serif"; /* Georgia */
+	font-size:18px;
+	line-height:100%;
+}
+p
+{
+	padding-top:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+text1 
+{
+	letter-spacing:-8px;
+	line-height:80%;
+	margin-left:20px;
+	padding-top:0px;
+
+	font-family:"Times New Roman";
+	font-size:92px;
+	font-weight:bold;
+	color:black;
+
+	background-color:white;
+}
+
+text2
+{
+	letter-spacing:1px;
+	line-height:50px;
+	margin-left:20px;
+
+	font-size:42px;
+	color:black;
+
+	background-color:white;
+}
+
+text3
+{
+	font-size:24px;
+	font-weight:bold;
+	color:black;
+	background-color:white;
+}
+
+textnormal
+{
+	font-size:16px;
+	color:black;
+	background-color:white;
+}
+.red
+{
+	color:red;
+}
+.textspaced
+{
+	font-size:20px;
+	margin-left:40px;
+}
+
+p
+{
+	margin-left:40px;
+}
+
+.right
+{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	margin:0px;
+
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:0px;
+	padding-right:0px;
+
+	border-top-style:solid;
+	border-top-color:black;
+	border-top-width:1px;
+	border-left-style:solid;
+	border-left-color:black;
+	border-left-width:1px;
+
+}
+
+.separatorbottom
+{
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-bottom-width:1px;
+}
+.separatorleft
+{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+
+}
+
+/* unvisited link */
+a:link 
+{
+	color:#4444ff;
+}      
+/* visited link */
+a:visited 
+{
+	color:#4444ff;
+} 
+/* mouse over link */
+a:hover 
+{
+	color:#000099;
+}  
+/* selected link */
+a:active 
+{
+	color:#FF0000;
+}  

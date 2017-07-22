@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~   HEAD   ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<head>
+
+	<link rel='stylesheet' type='text/css' href='index.css'/>
+	<link rel="SHORTCUT ICON" href="resources/favicon.ico"/>
+	<title>Autumn Yard : undi's portfolio</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<base target="_blank"></base>
+	
+	<script type="text/javascript">
+		function displayDate(){
+			document.getElementById("click").innerHTML= "Tú me has visitado " + localStorage.pagecount + " veces en total, \n y ahora mismo vives en: " + Date();
+		}
+
+		if (localStorage.pagecount)
+			localStorage.pagecount=Number(localStorage.pagecount) +1;
+		else
+			localStorage.pagecount=1;
+	</script>
+	
+	<?php 
+		$Fname = $_POST["Fname"];
+		$Lname = $_POST["Lname"];
+		$gender = $_POST["gender"];
+		$food = $_POST["food"];
+		$quote = $_POST["quote"];
+		$education = $_POST["education"];
+		$TofD = $_POST["TofD"];
+	?>
+</head>
+
+
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~   BODY   ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<body>
+<?php
+echo "Hello World";
+?>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<a class="titleblack"> WELCOME TO<br/> UNDI'S PORTFOLIO! </a>
+	<br/>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+	<a class="titlegreen button" href="green.htm"> 
+		undi's green zone 
+	</a>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+	<a class="titlepink button" href="pink.htm"> 
+		undi's pink zone
+	</a>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+	You gotta tell me something?
+	
+	<form action="asd.txt" method="POST">
+		Nick: 
+		<input type="text" name="nick"/>
+		<br />
+		Comment:
+		<textarea rows="5" cols="40" name="comment" ></textarea>
+		<br />
+		<input type="submit" value="Submit" />
+	</form>
+		
+		
+</body>
+</html>

@@ -1,0 +1,185 @@
+/* 
+	---------------------------------------------------
+	Created by undi (Pablo de la Ossa) in 2012,
+		using as bones: yensdesign.com/tutorials/tabs/
+	---------------------------------------------------	*/
+
+@CHARSET "UTF-8";
+
+
+/*	---------------------
+	MAIN STUFF
+	---------------------	*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+
+
+/*	---------------------
+	MAIN STUFF
+	---------------------	*/
+}
+body{
+	line-height:14px;
+	font-size: 12px;
+	font-family: Helvetica, Arial ,Verdana, sans-serif;
+	margin:0pt;
+	cursor:default;
+	color:#fff;
+}
+.background {   
+
+	background-color: #55C8E5; /* 55C8E5 blue, ff7722 red */
+	background-image:
+			/*url("clouds.png"),*/
+			url("resources/bg.png");
+	background-repeat:
+			/*repeat-x,*/
+			repeat-x;
+	background-position: 
+			/*-70px bottom,*/
+			top left;
+	background-attachment: 
+			/*fixed,*/
+			fixed;
+}
+html,body{
+	height:100%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.juego{
+	background:#395BB0;
+	/*border:1px solid #fff;*/
+	padding:1px;
+	margin: 10px;
+	box-shadow: #fff 0px 0px 3px;
+}
+
+
+/*	---------------------
+	CONTAINER STUFF
+	---------------------	*/
+#container{
+	margin: 20px auto;
+	width: 400px;
+}
+#container ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#container ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#container ul.menu li{
+	width: 60px;
+	font-weight: 700;
+	display: block;
+	margin-right: 3px;
+	padding: 5px 10px 5px 5px;
+	background: #86C5EF; /* unactive bg */
+	margin-bottom: -1px;
+	border: 1px solid #ffffff; /* unactive border */
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #395BB0; /* unactive text color */
+	cursor: pointer;
+	/*text-shadow: #395BB0 0px 0px 10px;*/
+}
+#container ul.menu li.active{ /* everything active */
+	top: 1px;
+	background: #AEDDFF;
+	background-image: url("resources/bg2.png");
+	border-bottom: 0;
+	color: #fff;
+	text-shadow: #fff 0px 0px 8px;
+}
+
+
+/*	---------------------
+	CONTENT STUFF 
+	---------------------	*/
+.content{
+	box-shadow: #395BB0 0px 0px 2px;
+	margin: 0pt auto;
+	background: #AEDDFF; /* content bg */
+	background-image: url("resources/bg2.png");
+	border: 1px solid #ffffff; /* content border */
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 11px;
+	text-shadow: #fff 0px 0px 8px;
+}
+.content h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 48px;
+	padding: 10px 10px 10px 52px;
+	font-size: 32px;
+}
+.content.about h1{
+	background: transparent url(images/tuts.jpg) no-repeat scroll left top;
+}
+.content.about{
+	display: none;
+}
+.content.games h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+.content.games{
+	display: block;
+}
+.content.music h1{
+	background: transparent url(images/music.jpg) no-repeat scroll left top;
+}
+.content.music{
+	display: none;
+}
+.content.texts h1{
+	background: transparent url(images/links.jpg) no-repeat scroll left top;
+}
+.content.texts{
+	display: none;
+}
+
+
+/*	---------------------
+	TEXT STUFF
+	---------------------	*/
+a{
+	color: #5f95ef;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	position: relative;
+	bottom: 0px;
+	color: #395BB0;
+}
+.tachado {
+	text-decoration: line-through;
+}
+
+
+/*
+.END
+*/

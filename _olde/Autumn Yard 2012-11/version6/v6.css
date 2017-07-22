@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+/*
+		bg green: E6FAE9 shiny
+		textshadow green: 2EE847 medium
+		normal text green: 45734B dark
+		
+		bg green: FFE8FA shiny
+		textshadow pink: E630BE medium
+		normal text pink: A13D89 dark
+		
+		1B67E0
+		
+*/
+
+
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.ttf"); /* TTF file for CSS3 browsers */
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		GENERAL
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body{
+	background:#fff;
+	cursor:default;
+	font:12px Arial #000;
+	text-align:center; /* Counteract to IE5/Win Hack */
+}
+
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		CONTAINERS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+	
+.button {
+	text-align:left; /* Counteract to IE5/Win Hack */
+	margin:15px 0px; 
+	padding:10px;
+	border:1px dashed #45734B; /* dashed solid */
+	background-color:#E6FAE9;
+	box-shadow: 0 0 20px 2px #E6FAE9;
+    -moz-box-shadow: 0 0 20px 2px #E6FAE9;
+    -webkit-box-shadow: 0 0 20px 2px #E6FAE9;
+}
+.content {
+	text-align:left; /* Counteract to IE5/Win Hack */
+	margin:15px 0px; 
+	padding:10px;
+	border:1px dashed #45734B; /* dashed solid */
+	background-color:#E6FAE9;
+	box-shadow: 0 0 20px 2px #E6FAE9;
+    -moz-box-shadow: 0 0 20px 2px #E6FAE9;
+    -webkit-box-shadow: 0 0 20px 2px #E6FAE9;
+	/* EL ROSA TENÍA ESTO:
+	
+	border:1px dashed #A13D89;
+	background-color:#FFE8FA; 
+	box-shadow: 0 0 20px 2px #FFE8FA;
+    -moz-box-shadow: 0 0 20px 2px #FFE8FA;
+    -webkit-box-shadow: 0 0 20px 2px #FFE8FA;
+	
+	*/
+}
+
+
+.juego{
+	background:#fff;
+	border:1px solid #000;
+	padding:1px;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		TEXTS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+.title{
+	text-align:center;
+	font:40px geosans;
+	text-shadow: 0 0 3px #444;
+	color:#000;
+}
+.pink{
+	text-shadow: 0 0 3px #A13D89;
+	color:#A13D89;
+}
+
+.rosa{
+	color:#A13D89;
+}
+.green{
+	text-shadow: 0 0 3px #2EE847;
+	color:#45734B;
+}
+
+.verde{
+	color:#45734B;
+}
+.blue{
+	text-shadow: 0 0 3px #1B67E0;
+	color:#1B67E0;
+}
+
+
+
+a{
+	color: #111;
+	text-decoration:none;
+}
+
+
+
+
+/* end. */

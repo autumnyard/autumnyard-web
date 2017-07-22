@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+@font-face {
+ font-family: harabara;
+ src: url("resources/harabara.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: harabara;
+ src: url("resources/harabara.ttf"); /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: impact;
+ src: url("resources/impact.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: impact;
+ src: url("resources/impact.ttf"); /* TTF file for CSS3 browsers */
+}
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		GENERAL
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body{
+	/* POSITION */
+	#width: 850px;
+	/* TEXT */
+	font-family: Verdana, Verdana;
+	font-size:18px;
+	color:#222;
+	text-decoration:none;
+	font-weight:normal;	
+	cursor:default;
+}
+html,body{
+	height:100%;
+	text-align: left;
+}
+.image{
+	background:#fff url('resources/top.png') repeat-x right top;
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		CONTAINERS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+/* sections */
+.section{
+	border-top:5px solid black;
+}
+
+.cut{
+	position:relative;
+	top:-20px;
+}
+.cut2{
+	position:relative;
+	top:-50px;
+}
+
+.texttitle{	
+	font-family:harabara,helvetica;
+	font-size:120px;
+	color: #fff;
+}
+
+/* for games */
+.subsection{
+	margin-left: 170px;
+	padding: 15px;
+	position:relative;
+	top:-50px;
+}   
+.border{
+	border:1px solid black;
+}
+.borderred{
+	border:3px solid #ee0000;
+} 
+
+.borderalt{
+	border:1px solid #000;
+	background-color: #fff;
+	padding:5px; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* for img */
+.frame{
+   padding:1px;
+   vertical-align:top;
+   border:1px solid #000000;
+}
+
+.alinear{
+	margin-left: 170px;
+}
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		TEXTS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+a{
+	color: #000;
+	font-size:16px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.subtitle{
+	font-size:30px;
+	font-family:harabara,helvetica;
+	color: #fff;
+	position:relative;
+	top:-20px;
+	left:30px;
+}
+.text1{	
+	font-size:50px;
+	font-family:impact;
+	position:relative;
+	top:-14px;
+}
+.text2{	
+	font-size:50px;
+	font-family:impact;
+	font-weight:bold;
+}
+.text3{	
+	font-size:40px;
+}
+.textred{	
+	font-size:50px;
+	font-family:impact;
+	font-weight:bold;
+	color:#e00;
+}
+.textfooter{
+	font-size:12px;
+	padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end. */

@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		GENERAL
+	~~~~~~~~~~~~~~~~~~~~
+*/
+body{
+	/* OTHER */
+	background:#1c1c1c /*url('resources/top.png') repeat-x right top*/;
+	cursor:default;
+	/* POSITION */
+	#width: 850px;
+	/* TEXT */
+	font-family: Helvetica;
+	font-size:12px;
+	color: #B32700 ;
+	text-decoration:none;
+	font-weight:normal;	
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		CONTAINERS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+whitecontainer{
+	float:right;
+	position:relative;
+	right:10px;
+	background:#fcfcfc;
+	width: 850px;
+	height:200px;
+}
+container{
+	
+	width: 100%;
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		TEXTS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+a{
+	color: #E04419;
+	font:16px Helvetica;
+	text-decoration:none;
+	font-weight:normal;
+}
+.texttitle{	
+	font-size:28px;
+	color: #C2C2C2;
+}
+.textsubtitle{
+	font-size:18px;
+	color: #C2C2C2;
+}
+.textfooter{
+	font-size:12px;
+	color: #C2C2C2;
+	padding-left:10px;
+	position: absolute; 
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end. */

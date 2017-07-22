@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~   HEAD   ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<head>
+
+	<link rel='stylesheet' type='text/css' href='index.css'/>
+	<link rel="SHORTCUT ICON" href="resources/favicon.ico"/>
+	<title>Autumn Yard : undi's portfolio</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<base target="_blank"></base>
+	
+	<script type="text/javascript">
+		function displayDate(){
+			document.getElementById("click").innerHTML= "Tú me has visitado " + localStorage.pagecount + " veces en total, \n y ahora mismo vives en: " + Date();
+		}
+
+		if (localStorage.pagecount)
+			localStorage.pagecount=Number(localStorage.pagecount) +1;
+		else
+			localStorage.pagecount=1;
+	</script>
+</head>
+
+
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~   BODY   ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<body>				
+	<embed class="juego" src="resources/WitheringNoise.swf" width="480" height="480" class="frame"></embed>
+	
+	<text class="titleblack"> 
+		autumn yard ~ undi's portfolio 
+	</text>
+	
+	</br>
+	</br>
+	
+	<text class="titlegreen"> 
+		undi's games 
+	</text>
+	</br>
+	<div class="content contentgreen"> 
+		Hi, and welcome to my website. 
+		<br/>
+		<br/>
+		I'm Undi, and I make games and stuff. Stuff such as music and sprites.
+		<br/>
+	</div>
+	</br>
+	<div class="content contentgreen"> 
+		<a href="squower.htm">
+			<img class="juego" src="resources/thumbSQ_s.png" alt="squower"> </img>
+		</a>
+		<a href="http://www.kongregate.com/games/momento/the-greedy-one">
+			<img class="juego" src="resources/thumbTGO_s.png" alt="thegreedyone"></img>
+		</a>
+		<a href="http://kongregate.com/games/momento/sliding-leafboy">
+			<img class="juego" src="resources/thumbSL_s.png" alt="slidingleafboy"></img>
+		</a>
+	</div>
+	
+	</br>
+	</br>
+	
+	<text class="titlepink"> 
+		undi's pink zone
+	</text>
+	
+	</br>
+	</br>
+	
+	<text class="titleblue"> 
+		undi's blue zone
+	</text>
+	
+		
+		
+</body>
+</html>

@@ -1,0 +1,2 @@
+body{ background:#55c8e5 url('http://dl.dropbox.com/u/12486477/www_data/bg-top.png') repeat-x right top;
+}

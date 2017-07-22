@@ -1,0 +1,210 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+/*
+
+	COLORS:
+		bg orange: FAD24D
+		bg less orange: FFE385
+		bg even less orange: FCEBB1 ¿?¿? not used
+		
+		separator red: E04419
+		
+		border fat-red: 9E4229
+		
+		text red: E04419
+		text white: fff ¿?¿? not used
+		text not-so-red: FFBB5C ¿?¿? not used
+
+		
+		
+*/
+@font-face {
+ font-family: abeat;
+ src: url("resources/abeat.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: abeat;
+ src: url("resources/abeat.ttf"); /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.ttf"); /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: impact;
+ src: url("resources/impact.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: impact;
+ src: url("resources/impact.ttf"); /* TTF file for CSS3 browsers */
+}
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		GENERAL
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body{
+	/* OTHER */
+	background:#FAD24D /*url('resources/top.png') repeat-x right top*/;
+	cursor:default;
+	/* POSITION */
+	#width: 850px;
+	/* TEXT */
+	font-family: Helvetica;
+	font-size:12px;
+	color: #B32700 ;
+	line-height: 12px;
+	text-decoration:none;
+	font-weight:normal;	
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		CONTAINERS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+/* sections */
+
+
+.line{
+	border-top:5px solid #E04419;
+}
+.section{
+	border-top:5px solid #E04419;
+}
+
+.subsection{
+	background:#FFE385;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 450px;
+	border:1px solid #9E4229;
+	margin-left: 120px;
+	margin-top:40px;
+	padding: 10px;
+	padding-left: 25px;
+	position:relative; 
+	top:-70px;                
+	box-shadow: 0 0 6px 2px #E04419;
+    -moz-box-shadow: 0 0 6px 2px #E04419;
+    -webkit-box-shadow: 0 0 6px 2px #E04419;
+}   
+.border{ /* THIS IS FOR THE GAMES and its screenshots and stuff, goes on the right side of the screen */
+	float:right;
+	background:#FFE385;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 520px;
+	border:1px solid #9E4229;
+	margin-left: 120px;
+	margin-top:40px;
+	padding: 10px;
+	padding-left: 25px;
+	position:relative; 
+	top:-70px;   
+	left:-60px;	
+	box-shadow: 0 0 6px 2px #E04419;
+    -moz-box-shadow: 0 0 6px 2px #E04419;
+    -webkit-box-shadow: 0 0 6px 2px #E04419;
+}
+
+/* for img */
+.imagen{
+	background:#fff;
+	border:1px solid #000;
+}
+.juego{
+	background:#fff;
+	border:1px solid #000;
+	margin: 10px;
+}
+
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		TEXTS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+a{
+	color: #E04419;
+	font:16px Helvetica;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.texttitle{	
+	font:60px geosans;
+	color: #E04419;
+	position:relative;
+	top:-66px;
+	left:30px;
+}
+.subtitle{
+	font:32px geosans;
+	color: #E04419;
+	position:relative;
+	top:-70px;
+	left:70px;
+}
+.text1{	
+	font:30px geosans;
+	color: #E04419;
+	text-shadow: 0 0 2px #F87, 0 0 2px #E04419;
+	position:relative;
+	left:-10px;
+}
+.text2{	
+	font-size:40px;
+	font-family:impact;
+	font-weight:bold;
+}
+.text3{	
+	font-size:40px;
+}
+.textred{	
+	font-size:50px;
+	font-family:impact;
+	font-weight:bold;
+	color:#e00;
+}
+.textfooter{
+	font-size:12px;
+	padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end. */

@@ -1,0 +1,68 @@
+
+/*
+    Style made by: 
+        undi
+	Begin date:   
+		13/apr/2013
+	Details:
+		Size: 800px width container
+	Colors:
+		Background clean: #fef0db
+		Background saturated: #fef0db
+		Logo and headers: #ffc600
+		Other darker orange: #f48d1d
+		Almost red: #fe6e20
+		Red: #fc5513
+		Totally red: #fe4a03
+*/
+
+body {
+	font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+	color: #000000;
+	background: #ffffff none repeat scroll top left;
+	padding: 0 0 0 0;
+}
+
+
+img#logo {
+	background-color: #fff;
+	/*background-color: #ffa;  /* For testing issues */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+}
+
+div#header {
+	background-color: #000;
+	/*background-color: #faf;  /* For testing issues */
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+a.headerbutton {
+	background-color: #000;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px 10px 30px ;
+	text-decoration: none;
+	border-right: 1px solid white;
+}
+a.headerbutton:hover {
+	background-color: #ffc600;
+}
+
+div#container {
+	background-color: #fff;
+	background-color: #aff;  /* For testing issues */
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px;
+}

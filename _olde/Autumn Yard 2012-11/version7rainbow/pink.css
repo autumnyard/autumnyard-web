@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+
+/*
+		bg green: E6FAE9 shiny
+		textshadow green: 2EE847 medium
+		normal text green: 45734B dark
+		
+		bg green: FFE8FA shiny
+		textshadow pink: E630BE medium
+		normal text pink: A13D89 dark
+		
+*/
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: geosans;
+ src: url("resources/geosans.ttf"); /* TTF file for CSS3 browsers */
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		GENERAL
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body{
+	/* OTHER */
+	background:#fff /*url('resources/top.png') repeat-x right top*/;
+	cursor:default;
+	/* POSITION */
+	#width: 850px;
+	padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+	width:460px;
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+	/* TEXT */
+	font-family: Arial;
+	font-size:12px;
+	color: #A13D89 ;
+	line-height: 14px;
+	text-decoration:none;
+	font-weight:normal;	
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		CONTAINERS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+	
+.content {
+	/* 
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	 */
+	text-align:left; /* Counteract to IE5/Win Hack */
+	margin:15px 0px; 
+	padding:10px;
+	border:1px dashed #A13D89; /* dashed solid */
+	background-color:#FFE8FA; 
+	box-shadow: 0 0 20px 2px #FFE8FA;
+    -moz-box-shadow: 0 0 20px 2px #FFE8FA;
+    -webkit-box-shadow: 0 0 20px 2px #FFE8FA;
+}
+
+.juego{
+	background:#fff;
+	border:1px solid #000;
+	margin: 10px;
+}
+/* 
+	~~~~~~~~~~~~~~~~~~~~
+		TEXTS
+	~~~~~~~~~~~~~~~~~~~~
+*/
+
+.texttitle{
+	text-align:center;
+	font:30px geosans;
+	text-shadow: 0 0 3px #E630BE;
+
+}
+a{
+	color: #111;
+	text-decoration:none;
+}
+
+
+
+
+/* end. */

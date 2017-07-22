@@ -3,6 +3,10 @@
     font-family: 'Raleway'; /*a name to be used later*/
     src: url('/font/raleway_thin-webfont.ttf')  format('truetype'); /*URL to font*/
 }
+@font-face {
+    font-family: 'Jura'; /*a name to be used later*/
+    src: url('/font/Jura-Regular.ttf')  format('truetype'); /*URL to font*/
+}
 /*------------------------------------*\
     $RESET
 \*------------------------------------*/
@@ -81,7 +85,6 @@ html {
     background-color: #fdfdfd;
     color:  #1c2123; /* #95a4a9 */
     /*font: 12px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    font-family: 'Raleway'; 
 }
 body {
     margin: 4%;
@@ -100,15 +103,55 @@ body {
     }
 
 .content {
-   float: left;
-    width: 400px;
+    float: left;
+    width: 300px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#ffffff;
 }
     .title {
+        font-family: 'Raleway'; 
         font-size: 48px; /* 48px; */
-        font-weight: normal;
+        font-weight: bold;
         line-height: 1;
         text-align: center;
         padding-top: 20px;
+    }
+
+    .subtitle {
+        font-family: 'Raleway'; 
+        font-size: 40px; /* 48px; */
+        font-weight: normal;
+        line-height: 0.1;
+        text-align: center;
+        padding-top: 5px;
+        color: #666666;
+    }
+
+    .section {
+        font-family: 'Jura'; 
+        font-size: 32px; /* 48px; */
+        font-weight: bold;
+        line-height: 1;
+        text-align: center;
+        padding-top: 30px;
+        color: #000000;
+    }
+
+    .subsection {
+        font-size: 24px; /* 48px; */
+        font-weight: normal;
+        line-height: 1;
+        text-align: left;
+        padding-top: 30px;
+        color: #000000;
     }
 
     .social-icons li {

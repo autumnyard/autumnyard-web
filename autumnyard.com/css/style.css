@@ -87,26 +87,54 @@ html {
     /*font: 12px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 body {
-    margin: 1%;
+    text-align: center;
 }
 
-.avatar {
-    /*float: left;*/
-     margin-left: auto;
-    margin-right: auto;
-   /* margin: 0 40px 20px 0;*/
+p, ul, ol, dl, .title {
+    margin-bottom: 10px;
+    text-align: left;
 }
-    .avatar img {
-       /* max-width: 400px;*/
-       /* max-height: 400px;*/
-        border-radius: 150px ; /* 0px;*/ 
-    }
+
+.avatar 
+{
+    /*float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 40px 20px 0;*/
+}
+
+.avatar img 
+{
+    /* max-width: 400px;*/
+    /* max-height: 400px;*/
+    border-radius: 150px ; /* 0px;*/ 
+}
+
+
 
 .content {
-    float: left;
-    width: 300px;
-    padding-top: 20px;
-    padding-right: 100px;
+    /*float: left;*/
+    display:inline-block;
+    vertical-align:top;
+    width: auto;
+    width: 280px;
+    /*width: 300px;*/
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*margin-right: 100px;*/
+
+    padding-bottom: 15px;
+    /*padding-top: 20px;*/
+    /*padding-right: 100px;*/
+}
+
+div.content
+{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
 .footer {
@@ -116,106 +144,132 @@ body {
    height:60px;   /* Height of the footer */
    background:#ffffff;
 }
-    .title {
-        font-family: 'Raleway'; 
-        font-size: 48px; /* 48px; */
-        font-weight: bold;
-        line-height: 1;
-        text-align: center;
-        padding-top: 20px;
-    }
+.title {
+    font-family: 'Raleway'; 
+    /*font-family: "PT Serif"; */
+    font-size: 48px; /* 48px; */
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
 
-    .subtitle {
-        font-family: 'Raleway'; 
-        font-size: 40px; /* 48px; */
-        font-weight: normal;
-        line-height: 0.1;
-        text-align: center;
-        padding-top: 5px;
-        color: #666666;
-    }
+.subtitle {
+    font-family: 'Raleway'; 
+    font-size: 40px; /* 48px; */
+    font-weight: normal;
+    line-height: 1/*0.3*/;
+    text-align: center;
+    padding-top: 5px;
+    color: #666666;
+}
 
-    .section {
-        font-family: 'Jura'; 
-        font-size: 32px; /* 48px; */
-        font-weight: bold;
-        line-height: 1;
-        text-align: center;
-        padding-top: 30px;
-        color: #000000;
-    }
+.section {
+    font-family: 'Jura'; 
+    font-size: 32px; /* 48px; */
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding-top: 30px;
+    color: #000000;
+}
 
-    .subsection {
-        font-size: 24px; /* 48px; */
-        font-weight: normal;
-        line-height: 1;
-        text-align: left;
-        padding-top: 15px;
-        color: #000000;
-    }
+p.section
+{
+    /*border-top: 1px solid #222;*/
+    /*border-bottom: 1px solid #222;*/
+}
 
-    .social-icons li {
-        display: inline;
+.subsection {
+    font-family: 'PT Serif'; 
+    font-size: 24px; /* 48px; */
+    font-weight: normal;
+    line-height: 1;
+    text-align: left;
+    padding-top: 15px;
+    color: #000000;
+}
+
+p.subsection
+{
+    margin: 10px;
+    /*border-top: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #222;*/
+}
+
+
+p.normal
+{
+    margin: 10px;
+    padding-left: 7px;
+}
+
+
+/*------------------------------------*\
+    $SOCIAL ICONS
+\*------------------------------------*/
+.social-icons li {
+    display: inline;
+}
+    .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+        text-indent: -9999px;
     }
-        .social-icons a {
-            display: inline-block;
-            margin-right: 10px;
-            text-indent: -9999px;
+        .twitter {
+            background-image: url(../img/twitter.png);
+            width: 20px;
+            height: 17px;
         }
-            .twitter {
-                background-image: url(../img/twitter.png);
-                width: 20px;
-                height: 17px;
-            }
-            .facebook {
-                background-image: url(../img/facebook.png);
-                width: 10px;
-                height: 19px;
-            }
-            .googleplus {
-                background-image: url(../img/googleplus.png);
-                width: 21px;
-                height: 19px;
-            }
-            .dribbble {
-                background-image: url(../img/dribbble.png);
-                width: 21px;
-                height: 19px;
-            }
-            .instagram {
-                background-image: url(../img/instagram.png);
-                width: 20px;
-                height: 19px;
-            }
-            .flickr {
-                background-image: url(../img/flickr.png);
-                width: 20px;
-                height: 9px;
-            }
-
-
+        .facebook {
+            background-image: url(../img/facebook.png);
+            width: 10px;
+            height: 19px;
+        }
+        .googleplus {
+            background-image: url(../img/googleplus.png);
+            width: 21px;
+            height: 19px;
+        }
+        .dribbble {
+            background-image: url(../img/dribbble.png);
+            width: 21px;
+            height: 19px;
+        }
+        .instagram {
+            background-image: url(../img/instagram.png);
+            width: 20px;
+            height: 19px;
+        }
+        .flickr {
+            background-image: url(../img/flickr.png);
+            width: 20px;
+            height: 9px;
+        }
 
 
 
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
-p,
-ul, ol, dl,
-.title {
-    margin-bottom: 20px;
-}
-p {
+
+p 
+{
     font-weight: bold;
+    color: #111;
 }
-ul, ol, dl {
+ul, ol, dl 
+{
     list-style-type: none;
 }
-a {
-    color: #339999;
+a 
+{
+    color: #ff8811/*#339999*/ ;
     font-weight: bold;
 }
-a:hover, a:focus {
+a:hover, a:focus 
+{
     color: #95a4a9;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
